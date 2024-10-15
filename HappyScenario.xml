@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Regression">
+  <test name="HappyScenario">
+    <classes>
+      <class name="Selenium_Web_Driver.NewMavenProject.RegisterTest_HappyScenario"/>
+      <class name="Selenium_Web_Driver.NewMavenProject.LoginTest_HappyScenario"/>
+      <class name="Selenium_Web_Driver.NewMavenProject.ProductsTest_HappyScenario"/>
+      <class name="Selenium_Web_Driver.NewMavenProject.ContactUs_HappyScenario"/>
+      <class name="Selenium_Web_Driver.NewMavenProject.SearchProductTest_HappyScenario"/>
+      <class name="Selenium_Web_Driver.NewMavenProject.SubscriptionTest_HappyScenario"/>
+      <class name="Selenium_Web_Driver.NewMavenProject.TestCasesTest_HappyScenario"/>     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Regression">
+  <test name="NegativeScenario">
+    <classes>
+      <class name="Selenium_Web_Driver.NewMavenProject.LoginTest_NegativeScenario"/>
+      <class name="Selenium_Web_Driver.NewMavenProject.RegisterTest_NegativeScenario"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

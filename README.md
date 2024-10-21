@@ -1,3 +1,11 @@
+Automation Exercise - Selenium with Java
+
+The Automation Exercise website is a full-fledged website built for automation practice purposes.
+
+This project aims to complete all the test cases outlined in https://automationexercise.com/test_cases
+
+It implements all such test cases using the Selenium with Java testing framework. The test cases are outlined below.
+
 ✅ Test Case 1: Register User
 
 ✅ Test Case 2: Login User with the correct email and password

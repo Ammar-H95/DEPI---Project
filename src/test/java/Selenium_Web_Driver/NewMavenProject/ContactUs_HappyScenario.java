@@ -1,6 +1,7 @@
 package Selenium_Web_Driver.NewMavenProject;
 
 import java.awt.AWTException;
+import java.time.Duration;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -17,6 +18,8 @@ public class ContactUs_HappyScenario extends TestBase{
     public void setUp() {
 		 homeObject = new HomePage(driver);
          contactObject = new ContactUs(driver);
+		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+
     }
   @Test
   public void testContactUs() throws AWTException, InterruptedException {

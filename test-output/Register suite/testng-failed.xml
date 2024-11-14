@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Register suite]">
+  <test thread-count="5" name="Test New Account Registeration(failed)">
+    <classes>
+      <class name="Selenium_Web_Driver.NewMavenProject.RegisterTest_HappyScenario">
+        <methods>
+          <include name="setUp"/>
+          <include name="openWebsite"/>
+          <include name="closeWebsite"/>
+          <include name="testRegister_NewEmail"/>
+        </methods>
+      </class> <!-- Selenium_Web_Driver.NewMavenProject.RegisterTest_HappyScenario -->
+    </classes>
+  </test> <!-- Test New Account Registeration(failed) -->
+</suite> <!-- Failed suite [Register suite] -->

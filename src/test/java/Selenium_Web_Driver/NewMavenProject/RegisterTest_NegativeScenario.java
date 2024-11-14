@@ -1,8 +1,10 @@
 package Selenium_Web_Driver.NewMavenProject;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import java.time.Duration;
 
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.RegistrationPage;
 
@@ -12,11 +14,16 @@ public class RegisterTest_NegativeScenario extends TestBase{
 	String registrationName = "Ammar Hossam",registrationEmail= "ammar1@gmail.com"; 
 	String newUserSignupMessage = "New User Signup!";
 
-	
+	@BeforeMethod
+    public void setUp() {
+        homeObject = new HomePage(driver);
+        registerObject = new RegistrationPage(driver);
+        //wait duration 5 sec in case element takes time to render 
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+    }
   @Test
   public void registerWithExistedEmail() {
-	  homeObject = new HomePage(driver);
-	  registerObject = new RegistrationPage(driver);
+	  
 	  
  Assert.assertEquals(homeObject.getActualTitle(),"Automation Exercise");
 	  

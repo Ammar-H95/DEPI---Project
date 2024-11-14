@@ -1,43 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-16T00:53:42 EEST" name="Regression" finished-at="2024-10-16T00:54:04 EEST" duration-ms="21399">
+  <suite started-at="2024-11-01T20:45:37 EET" name="Default suite" finished-at="2024-11-01T20:46:06 EET" duration-ms="28933">
     <groups>
     </groups>
-    <test started-at="2024-10-16T00:53:42 EEST" name="NegativeScenario" finished-at="2024-10-16T00:54:04 EEST" duration-ms="21399">
-      <class name="Selenium_Web_Driver.NewMavenProject.LoginTest_NegativeScenario">
-        <test-method is-config="true" signature="openWebsite()[pri:0, instance:Selenium_Web_Driver.NewMavenProject.LoginTest_NegativeScenario@3c46e67a]" started-at="2024-10-16T00:53:42 EEST" name="openWebsite" finished-at="2024-10-16T00:53:49 EEST" duration-ms="6828" status="PASS">
+    <test started-at="2024-11-01T20:45:37 EET" name="Default test" finished-at="2024-11-01T20:46:06 EET" duration-ms="28933">
+      <class name="Selenium_Web_Driver.NewMavenProject.RegisterTest_HappyScenario">
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:Selenium_Web_Driver.NewMavenProject.RegisterTest_HappyScenario@4c12331b]" started-at="2024-11-01T20:45:37 EET" name="openWebsite" finished-at="2024-11-01T20:46:01 EET" duration-ms="23826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWebsite -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Selenium_Web_Driver.NewMavenProject.LoginTest_NegativeScenario@3c46e67a]" started-at="2024-10-16T00:53:49 EEST" name="setUp" finished-at="2024-10-16T00:53:49 EEST" duration-ms="89" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Selenium_Web_Driver.NewMavenProject.RegisterTest_HappyScenario@4c12331b]" started-at="2024-11-01T20:46:01 EET" name="setUp" finished-at="2024-11-01T20:46:01 EET" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithWrongCredentials()[pri:0, instance:Selenium_Web_Driver.NewMavenProject.LoginTest_NegativeScenario@3c46e67a]" started-at="2024-10-16T00:53:49 EEST" name="loginWithWrongCredentials" finished-at="2024-10-16T00:53:53 EEST" duration-ms="3547" status="PASS">
+        <test-method signature="testRegister_NewEmail()[pri:0, instance:Selenium_Web_Driver.NewMavenProject.RegisterTest_HappyScenario@4c12331b]" started-at="2024-11-01T20:46:01 EET" name="testRegister_NewEmail" finished-at="2024-11-01T20:46:01 EET" duration-ms="61" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+The annotation @FindBy is disallowed for this location
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+The annotation @FindBy is disallowed for this location
+
+at pages.HomePage.getActualTitle(HomePage.java:58)
+at Selenium_Web_Driver.NewMavenProject.RegisterTest_HappyScenario.testRegister_NewEmail(RegisterTest_HappyScenario.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginWithWrongCredentials -->
-        <test-method is-config="true" signature="closeWebsite()[pri:0, instance:Selenium_Web_Driver.NewMavenProject.LoginTest_NegativeScenario@3c46e67a]" started-at="2024-10-16T00:53:53 EEST" name="closeWebsite" finished-at="2024-10-16T00:53:54 EEST" duration-ms="1110" status="PASS">
+        </test-method> <!-- testRegister_NewEmail -->
+        <test-method is-config="true" signature="closeWebsite()[pri:0, instance:Selenium_Web_Driver.NewMavenProject.RegisterTest_HappyScenario@4c12331b]" started-at="2024-11-01T20:46:02 EET" name="closeWebsite" finished-at="2024-11-01T20:46:06 EET" duration-ms="4606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWebsite -->
-      </class> <!-- Selenium_Web_Driver.NewMavenProject.LoginTest_NegativeScenario -->
-      <class name="Selenium_Web_Driver.NewMavenProject.RegisterTest_NegativeScenario">
-        <test-method is-config="true" signature="openWebsite()[pri:0, instance:Selenium_Web_Driver.NewMavenProject.RegisterTest_NegativeScenario@45752059]" started-at="2024-10-16T00:53:54 EEST" name="openWebsite" finished-at="2024-10-16T00:53:57 EEST" duration-ms="3092" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openWebsite -->
-        <test-method signature="registerWithExistedEmail()[pri:0, instance:Selenium_Web_Driver.NewMavenProject.RegisterTest_NegativeScenario@45752059]" started-at="2024-10-16T00:53:57 EEST" name="registerWithExistedEmail" finished-at="2024-10-16T00:54:03 EEST" duration-ms="6194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerWithExistedEmail -->
-        <test-method is-config="true" signature="closeWebsite()[pri:0, instance:Selenium_Web_Driver.NewMavenProject.RegisterTest_NegativeScenario@45752059]" started-at="2024-10-16T00:54:03 EEST" name="closeWebsite" finished-at="2024-10-16T00:54:04 EEST" duration-ms="444" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeWebsite -->
-      </class> <!-- Selenium_Web_Driver.NewMavenProject.RegisterTest_NegativeScenario -->
-    </test> <!-- NegativeScenario -->
-  </suite> <!-- Regression -->
+      </class> <!-- Selenium_Web_Driver.NewMavenProject.RegisterTest_HappyScenario -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

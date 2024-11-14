@@ -1,5 +1,7 @@
 package Selenium_Web_Driver.NewMavenProject;
 
+import java.time.Duration;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -14,6 +16,8 @@ public class TestCasesTest_HappyScenario extends TestBase{
     public void setUp() {
 		 homeObject = new HomePage(driver);
 		 testCasesObject = new TestCases(driver);
+		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+
     }
   @Test
   public void testNavigationToTestCasesPage() {

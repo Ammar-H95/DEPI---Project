@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Regression">
+  <test name="Test Access to Test Cases WebPage">
+    <classes>
+      <class name="Selenium_Web_Driver.NewMavenProject.TestCasesTest_HappyScenario"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

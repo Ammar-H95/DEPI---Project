@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Product suite">
+  <test name="Test Product Details">
+    <classes>
+      <class name="Selenium_Web_Driver.NewMavenProject.ProductsTest_HappyScenario"/>  
+    </classes>
+  </test>
+   <test name="Test Search Product">
+    <classes>
+      <class name="Selenium_Web_Driver.NewMavenProject.SearchProductTest_HappyScenario"/>  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

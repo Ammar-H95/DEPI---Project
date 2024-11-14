@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Selenium_Web_Driver.NewMavenProject.ContactUs_HappyScenario">
+      <class name="Selenium_Web_Driver.NewMavenProject.RegisterTest_HappyScenario">
         <methods>
-          <include name="openWebsite"/>
-          <include name="testContactUs"/>
-          <include name="closeWebsite"/>
           <include name="setUp"/>
+          <include name="openWebsite"/>
+          <include name="closeWebsite"/>
+          <include name="testRegister_NewEmail"/>
         </methods>
-      </class> <!-- Selenium_Web_Driver.NewMavenProject.ContactUs_HappyScenario -->
+      </class> <!-- Selenium_Web_Driver.NewMavenProject.RegisterTest_HappyScenario -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

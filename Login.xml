@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Login suite">
+  <test name="Test Login with valid Credintials">
+    <classes>
+      <class name="Selenium_Web_Driver.NewMavenProject.LoginTest_HappyScenario"/>  
+    </classes>
+  </test>
+  <test name="Test Login with invalid credintials">
+    <classes>
+      <class name="Selenium_Web_Driver.NewMavenProject.LoginTest_NegativeScenario"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

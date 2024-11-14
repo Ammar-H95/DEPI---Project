@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Register suite">
+  <test name="Test New Account Registeration">
+    <classes>
+      <class name="Selenium_Web_Driver.NewMavenProject.RegisterTest_HappyScenario"/>   
+    </classes>
+  </test>
+  <test name="Test Registrataion with an existed account">
+    <classes>
+      <class name="Selenium_Web_Driver.NewMavenProject.RegisterTest_NegativeScenario"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

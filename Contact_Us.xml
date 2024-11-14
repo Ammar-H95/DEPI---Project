@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Contact Us suite">
+  <test name="Test Contact Us">
+    <classes>      
+      <class name="Selenium_Web_Driver.NewMavenProject.ContactUs_HappyScenario"/>        
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

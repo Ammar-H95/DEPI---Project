@@ -11,47 +11,6 @@
           <include name="testingSearchingForProduct"/>
         </methods>
       </class> <!-- Selenium_Web_Driver.NewMavenProject.SearchProductTest_HappyScenario -->
-      <class name="Selenium_Web_Driver.NewMavenProject.ContactUs_HappyScenario">
-        <methods>
-          <include name="openWebsite"/>
-          <include name="testContactUs"/>
-          <include name="closeWebsite"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- Selenium_Web_Driver.NewMavenProject.ContactUs_HappyScenario -->
-      <class name="Selenium_Web_Driver.NewMavenProject.TestCasesTest_HappyScenario">
-        <methods>
-          <include name="setUp"/>
-          <include name="openWebsite"/>
-          <include name="closeWebsite"/>
-          <include name="testNavigationToTestCasesPage"/>
-        </methods>
-      </class> <!-- Selenium_Web_Driver.NewMavenProject.TestCasesTest_HappyScenario -->
-      <class name="Selenium_Web_Driver.NewMavenProject.ProductsTest_HappyScenario">
-        <methods>
-          <include name="openWebsite"/>
-          <include name="testingAllProductsAreVisabile"/>
-          <include name="closeWebsite"/>
-          <include name="testingViewProduct"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- Selenium_Web_Driver.NewMavenProject.ProductsTest_HappyScenario -->
-      <class name="Selenium_Web_Driver.NewMavenProject.LoginTest_HappyScenario">
-        <methods>
-          <include name="setUp"/>
-          <include name="openWebsite"/>
-          <include name="closeWebsite"/>
-          <include name="testLoginWithValidCredentials"/>
-        </methods>
-      </class> <!-- Selenium_Web_Driver.NewMavenProject.LoginTest_HappyScenario -->
-      <class name="Selenium_Web_Driver.NewMavenProject.SubscriptionTest_HappyScenario">
-        <methods>
-          <include name="setUp"/>
-          <include name="openWebsite"/>
-          <include name="closeWebsite"/>
-          <include name="testingSubscription"/>
-        </methods>
-      </class> <!-- Selenium_Web_Driver.NewMavenProject.SubscriptionTest_HappyScenario -->
     </classes>
   </test> <!-- HappyScenario(failed) -->
 </suite> <!-- Failed suite [Regression] -->
